@@ -102,7 +102,7 @@ void reconstruirSolucaoAle(Solucao& s);
 void reconstruirSolucaoPar(Solucao& s);
 void reconstruirSolucaoTri(Solucao& s);
 void reconstruirSolucaoGul(Solucao& s);
-void reconstruirSolucaoPior(Solucao& s);
+void reconstruirSolucaoPior(Solucao& s, int aux);
 int selecionarHeuristicaDesconstrutiva();
 int selecionarHeuristicaReconstrutiva();
 Solucao execALNS(Solucao& s);
